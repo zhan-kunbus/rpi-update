@@ -1,0 +1,12 @@
+Source: rpi-update
+Section: unknown
+Priority: optional
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 4.3.0
+Homepage: https://github.com/Hexxeh/rpi-update
+
+Package: rpi-update
+Architecture: all
+Depends: ${misc:Depends}, binutils, curl
+Description: Raspberry Pi firmware updating tool
